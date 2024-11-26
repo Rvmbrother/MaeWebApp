@@ -5,7 +5,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import TextInfo from "./TextInfo/TextInfo";
 import { useRef, useContext } from "react";
 import { ScrollContext } from "../Contexts/ScrollProvider";
-import { text } from "@fortawesome/fontawesome-svg-core";
 
 gsap.registerPlugin(ScrollTrigger);
 
