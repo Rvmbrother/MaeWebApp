@@ -1,0 +1,42 @@
+.main {
+  top: 0;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/Users/kiko/Code/WebsitedaMãe/mae-webapp copy 2/public/Mãe_Na_Mesa.png");
+  background-size: 100%; /* Keeps the image in the center with visible sides */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevents tiling */
+  overflow: hidden; /* Prevents overflow */
+  z-index: 0; /* Establishes a stacking context */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.homeText {
+  position: fixed;
+  margin-top: 30rem;
+  width: 90vw;
+  margin-left: 2.5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  top: 0;
+}
+
+.info {
+  margin: 0;
+  color: #fff;
+  font-family: Archivo;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 160%; /* 2.2rem */
+  letter-spacing: 0.1375rem;
+  width: 57.5rem;
+  height: auto;
+  text-align: left;
+}
