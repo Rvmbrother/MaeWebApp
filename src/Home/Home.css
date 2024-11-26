@@ -3,7 +3,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url("/Users/kiko/Code/WebsitedaMãe/mae-webapp copy 2/public/Mãe_Na_Mesa.png");
+  background-image: url("public/Mãe_Na_Mesa.png");
   background-size: 100%; /* Keeps the image in the center with visible sides */
   background-position: center;
   background-repeat: no-repeat; /* Prevents tiling */

@@ -28,7 +28,6 @@ export default function Home() {
         {
           yPercent: -100,
           scrollTrigger: {
-            markers: true,
             trigger: textInfoRef.current,
             start: "top center",
             end: "bottom top",
